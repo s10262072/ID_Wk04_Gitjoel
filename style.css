@@ -10,6 +10,7 @@ nav{
     padding: 1em;
     text-align: center;
     background-color: grey;
+    border-radius: 10px;
     
 }
 nav a {
@@ -29,6 +30,7 @@ nav a:hover{
 
 .header img {
     max-width:250px;
+    border-radius: 20px;
 }
 .container{
     max-width:800px;
@@ -37,11 +39,13 @@ nav a:hover{
 }
 
 .menu{
-    width:400px;
-    height:500px;
-    background-color:beige;
+    width:800px;
+    height:700px;
+    background-color:#ffffff;
     border-radius: 20px;
+    
 }
+
 footer{
     text-align:center;
     padding: 1em;
@@ -52,7 +56,10 @@ footer{
     border-top-style: solid;
     border-top-color: #000000;
 }
-
+footer a{
+    float:right;
+    flex-direction: row-reverse;
+}
 footer h3{
     text-align:left;
 }
