@@ -2,11 +2,13 @@ body{
     margin:0;
     padding: 30px;
     background-color:#f4f4f4;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(HD-wallpaper-geometric-art-shapes-white-background-white-background-thumbnail.jpg);
+    
 }
 nav{
     padding: 0.5em;
-    text-align: center;
+    text-align: right;
 }
 nav a {
     padding:0.5em 1em;
