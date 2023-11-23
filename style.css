@@ -7,13 +7,21 @@ body{
     
 }
 nav{
-    padding: 0.5em;
-    text-align: right;
+    padding: 1em;
+    text-align: center;
+    background-color: grey;
+    
 }
 nav a {
     padding:0.5em 1em;
     margin: 0 1em;
+    color:white;
+    
 
+}
+
+nav a:hover{
+    background-color: #111;
 }
 .header{
     padding: 1em;
@@ -27,10 +35,28 @@ nav a {
     margin: 0 auto;
     padding:20px;
 }
+
+.menu{
+    width:400px;
+    height:500px;
+    background-color:beige;
+    border-radius: 20px;
+}
 footer{
     text-align:center;
     padding: 1em;
-    position:fixed;
+    position:relative;
     width:100%;
     bottom:0;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #000000;
+}
+
+footer h3{
+    text-align:left;
+}
+
+footer h4{
+    text-align:left;
 }
