@@ -1,6 +1,6 @@
 body{
     margin:0;
-    padding: 30px;
+    
     background-image: url(mainBackground.png);
     font-family: 'DM Serif Display', serif;
     font-family: 'Poppins', sans-serif;
@@ -9,8 +9,10 @@ body{
     
 }
 body header{
-    background-color: lightgrey;
+    
     border-radius: 10px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 nav{
     padding: 1em;
@@ -32,7 +34,8 @@ nav a:hover{
     color:#000000
 }
 .header{
-    padding: 1em;
+  padding-left: 400px;
+  padding-right: 400px;
 }
 
 .header img {
@@ -40,9 +43,12 @@ nav a:hover{
     border-radius: 20px;
 }
 .container{
-    max-width:800px;
+    max-width:100%;
     margin: 0 auto;
-    padding:20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    position: relative;
+    min-height:100vh;
 }
 
 .menu{
@@ -53,6 +59,17 @@ nav a:hover{
     box-shadow: 10px 10px 5px;
     
 }
+.menu1, .menu2, .menu3, .menu4{
+  height:300px;
+  width:100%;
+  margin:0;
+  border-radius:20px;
+  box-shadow: 10px 10px 5px;
+  background-color: #fff;
+  position:relative;
+  margin-bottom:20px;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -64,6 +81,7 @@ nav a:hover{
     transition: 0.5s;
     padding-top: 60px;
     background-image: url(sidebar.png);
+    box-shadow: 2px 0 10px #000000;
   }
   
   .sidenav a {
@@ -95,6 +113,10 @@ nav a:hover{
     margin-top: -10px;
     
   }
+  .openNav :hover{
+    background-color: beige;
+    color:black;
+  }
 
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -102,24 +124,62 @@ nav a:hover{
   }
   
 footer{
-    text-align:center;
-    padding: 1em;
+    padding: 20px;
     position:relative;
     width:100%;
     bottom:0;
-    border-top-width: 5px;
-    border-top-style: solid;
-    border-top-color: #000000;
+    background-color:#000000;
+    color:#fff;
+    
 }
-footer a{
-    float:right;
-    flex-direction: row-reverse;
-}
-footer h3{
-    text-align:left;
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-footer h5{
-    text-align:left;
-    font-weight: normal;
+.footer-left {
+  flex: 1;
+}
+
+.footer-left h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-right a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+.footer-right a:hover {
+  background-color: beige;
+  color:#000000;
+}
+.footer-social{
+  margin-top: 10px;
+}
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer-social img{
+  width:50px;
+}
+.footer-social img:hover{
+  opacity:0.7;
 }
