@@ -1,13 +1,16 @@
 body{
     margin:0;
     padding: 30px;
-    background-color:#f4f4f4;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(mainBackground.png);
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Poppins', sans-serif;
+   
     background-image: url(HD-wallpaper-geometric-art-shapes-white-background-white-background-thumbnail.jpg);
     
 }
 body header{
     background-color: grey;
+    border-radius: 10px;
 }
 nav{
     padding: 1em;
@@ -25,7 +28,8 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #111;
+    background-color: beige;
+    color:#000000
 }
 .header{
     padding: 1em;
@@ -49,7 +53,54 @@ nav a:hover{
     box-shadow: 10px 10px 5px;
     
 }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-image: url(sidebar.png);
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    background-color: #f1f1f1;
+    color:black;
+    
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    
+  }
+  
+  .openNav{
+    color:white;
+    float:right;
+    margin-top: -10px;
+    
+  }
 
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
 footer{
     text-align:center;
     padding: 1em;
@@ -68,6 +119,7 @@ footer h3{
     text-align:left;
 }
 
-footer h4{
+footer h5{
     text-align:left;
+    font-weight: normal;
 }

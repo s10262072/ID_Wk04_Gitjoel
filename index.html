@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
     <title>NP Joel's IT Support Centre</title>
 </head>
 <body>
-
+    <script src="script.js"></script>
     <header class="header">
         <img src="Ngee_Ann_Polytechnic_logo.svg.png">
         <img src="itsupport.png" align="right">
@@ -16,36 +19,33 @@
         <a class="active" href="index.html">Home</a>
         <a href="services.html">Our Services</a>
         <a href="about.html">About</a>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="active" href="index.html">Home</a>
+            <a href="services.html">Our Services</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="openNav">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">Menu &#9776;</span>
+        </div>
     </nav>
     </header>
 
     <div class="container">
-
         <section id="home">
             <h2>Welcome to Ngee Ann's very own Joel's IT Support Centre!</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
-            <div class="menu">
 
+            <div class="menu">
             </div>
-           
         </section>
     
-
-
-
-    
-
     </div>
 
     <footer>
         <p>2023 Joel's IT Services. All Rights Reserved.</p>
         <h3>Joel's IT Services</h3>
-        <h4>Blk 123 Ngee Ann Polytechnic</h4>
-
-        <a class="active" href="index.html">Home</a>
-        <a href="services.html">Our Services</a>
-        <a href="about.html">About</a>
+        <h5>Blk 123 Ngee Ann Polytechnic</h5>
     </footer>
 
     
