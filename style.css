@@ -5,11 +5,11 @@ body{
     font-family: 'DM Serif Display', serif;
     font-family: 'Poppins', sans-serif;
    
-    background-image: url(HD-wallpaper-geometric-art-shapes-white-background-white-background-thumbnail.jpg);
+    
     
 }
 body header{
-    background-color: grey;
+    background-color: lightgrey;
     border-radius: 10px;
 }
 nav{
