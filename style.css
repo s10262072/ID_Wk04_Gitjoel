@@ -238,5 +238,13 @@ footer{
 .copyright{
   text-align:center;
 }
-
-
+@media screen and (max-width: 300px) {
+body {
+  width:100vw;
+}
+}
+@media screen and (max-width: 100px) {
+  body {
+    width:100vw;
+  }
+  
